@@ -9,3 +9,8 @@
 - Clonar la estructura del Wireframe del lado derecho usando las buenas prácticas de semántica de HTML
 
 <img src="mockup.png">
+## Algo
+- Cambio 1
+  - Subcambio 1
+  - Subcambio 2
+- Cambio 2
