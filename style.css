@@ -7,7 +7,7 @@ body {
 header {
   display: flex;
   align-items: center;
-  background: black; /* todo no usar 'black '    */
+  background: tomato; /* todo no usar 'black '    */
   color: white;
   line-height: 10px;
   padding-left: 30px;
