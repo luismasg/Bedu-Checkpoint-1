@@ -55,10 +55,67 @@ h1 {
 }
 
 footer {
-    background-color: black;
+    border: 1px solid black;
     padding: 10px;
     display: flex;
-    color: white;
+    color: black;
     justify-content: center;
 
+}
+
+.beneficios img {
+    height: 15px;
+    margin: 10px;
+}
+
+.beneficios {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-bottom: 1px solid black;
+}
+/* @media (max-width: 600px) {
+    .beneficios {
+        flex-direction: column;
+        align-items: center;
+    }
+} */
+
+.beneficios section {
+    display: flex;
+    align-items: center;
+}
+
+.beneficios div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* border: 1px solid red; */
+    margin: 30px;
+    padding: 10px;
+}
+
+.testimonios img {
+    height: 100px;
+}
+
+.testimonios {
+    display: flex;
+    justify-content: center;
+    border-bottom: 1px solid black;
+}
+
+.testimonios div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 40px;
+}
+
+.incentivo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 20px;
+    border-bottom: 1px solid black;
 }
