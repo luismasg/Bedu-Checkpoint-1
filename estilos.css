@@ -54,15 +54,6 @@ h1 {
     width: 190px;
 }
 
-footer {
-    border: 1px solid black;
-    padding: 10px;
-    display: flex;
-    color: black;
-    justify-content: center;
-
-}
-
 .beneficios img {
     height: 15px;
     margin: 10px;
@@ -110,6 +101,7 @@ footer {
     flex-direction: column;
     align-items: center;
     margin: 40px;
+    text-align: center;
 }
 
 .incentivo {
@@ -118,4 +110,34 @@ footer {
     justify-content: center;
     margin: 20px;
     border-bottom: 1px solid black;
+}
+
+.segunda-llamada {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 30vh;
+    border-bottom: 1px solid black;
+}
+
+.segunda-llamada button {
+    background-color: rgb(133, 231, 133);
+    height: 30px;
+    width: 100px;
+    border-radius: 10px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+footer {
+    padding: 10px;
+    display: flex;
+    color: black;
+    justify-content: center;
+    align-items: center;
+}
+
+footer img {
+    height: 15px;
+    margin: 10px;
 }
